@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" width="device-width, initial-scale=1">
+        <title>WoW Character Generator</title>
+        <link href="char.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <main>
+            <section class="main">
+                <h1>WoW Character Generator</h1>
+                <h2>Which faction are you going to play?</h2>
+                <form>
+                    <fieldset>
+                        <label><input type="radio" class="faction" name="faction" id="horde" value="0"><p class="faction-select">Horde</p></label>
+                        <label><input type="radio" class="faction" name="faction" id="alliance" value="1"><p class="faction-select">Alliance</p></label>
+                    </fieldset>
+                </form>
+                <h2>Press the button to see what race/class you will play!</h2>
+                <button class="randomize" type="submit">Randomize</button>
+                <section class="results"><p class="results-p"></p></section>
+                </section>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="char.js"></script>
+    </body>
+</html>
